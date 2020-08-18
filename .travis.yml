@@ -6,7 +6,9 @@ jdk:
 arch:
 - amd64
 - arm64
-install: ./installViaTravis.sh
+install:
+- echo $JAVA_HOME
+- ./installViaTravis.sh
 script: ./buildViaTravis.sh
 env:
   global:
