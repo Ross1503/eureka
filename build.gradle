@@ -2,7 +2,7 @@ buildscript {
     repositories { jcenter() }
 
     dependencies {
-        classpath 'com.netflix.nebula:gradle-extra-configurations-plugin:5.2.+'
+        classpath 'com.netflix.nebula:gradle-extra-configurations-plugin:5.0.+'
     }
 }
 
